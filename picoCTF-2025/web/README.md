@@ -3,14 +3,16 @@
 This section includes write-ups for web-based challenges categorized by difficulty.
 
 ## 🟢 Easy
-- 🍪 [Cookie Monster Secret Recipe](./easy/cookie-monster.md)
-- 🧠 [SSTI1](./easy/ssti1.md)
+- [Cookie Monster Secret Recipe](./easy/cookie-monster.md)
+- [SSTI1](./easy/ssti1.md)
+- [head-dump](./medium/head-dump.md)
+- [n0s4n1ty 1](./hard/n0s4n1ty-1.md)
 
 ## 🟡 Medium
-- 🧾 [head-dump](./medium/head-dump.md)
+-
 
 ## 🔴 Hard
-- 🔐 [n0s4n1ty 1](./hard/n0s4n1ty-1.md)
+- 
 
 ---
 
