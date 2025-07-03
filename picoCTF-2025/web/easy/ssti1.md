@@ -12,7 +12,7 @@ Objective: exploit the SSTI to retrieve a flag stored in the server filesystem.
 
 - Browser (Firefox/Chrome)
 - Jinja2 SSTI payloads
-- [PayloadAllTheThings – SSTI Cheatsheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Injection/README.md)
+- [PayloadAllTheThings – SSTI Cheatsheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md)
 
 ---
 
@@ -22,7 +22,7 @@ Objective: exploit the SSTI to retrieve a flag stored in the server filesystem.
 
 Entered:
 ```
-{{2*3}}
+{{7*7}}
 ```
 ✅ Confirms that template expressions are evaluated → SSTI vulnerability exists.  
 ![Step 1 – SSTI Reflection](../screenshots/ssti1-reflection.png)
