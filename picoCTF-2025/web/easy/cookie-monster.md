@@ -30,9 +30,7 @@ No working login form. The trick is in the browser cookie.
 
 - Opened browser **DevTools** → `Application` tab → `Cookies`.
 
-- Found a cookie named:
-
-secret_recipe = cGljb0NURntjMDBrMWVfbTBuc3Rl9sMHZlc19jMDBraWVzX0FDOEZDRDc1fQ==
+- Found a cookie named: secret_recipe = cGljb0NURntjMDBrMWVfbTBuc3Rl9sMHZlc19jMDBraWVzX0FDOEZDRDc1fQ==
 
 
 👉 Here's what it looked like in the browser:
