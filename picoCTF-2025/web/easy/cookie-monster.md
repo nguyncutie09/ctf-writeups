@@ -35,7 +35,7 @@ No working login form. The trick is in the browser cookie.
 
 👉 Here's what it looked like in the browser:
 
-![Step 2 – DevTools Cookie](./cookie-monster-devtools.png)
+![Step 2 – DevTools Cookie](./screenshots/cookie-monster-devtools.png)
 
 ---
 
@@ -49,7 +49,7 @@ No working login form. The trick is in the browser cookie.
 
 👉 Visual result:
 
-![Step 3 – Decoded Flag](./cookie-monster-decode.png)
+![Step 3 – Decoded Flag](./screenshots/cookie-monster-decode.png)
 
 ---
 
