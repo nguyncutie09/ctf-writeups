@@ -16,7 +16,7 @@ This folder contains writeups for web-based challenges from picoCTF 2025.
 - 🔐 n0s4n1ty 1
 - 🧾 head-dump
 
-Each write-up includes:
+## Each write-up includes:
 - Problem description
 - Step-by-step approach
 - Tools/commands used
