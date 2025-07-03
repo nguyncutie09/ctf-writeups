@@ -26,6 +26,7 @@ Entered:
 ```
 ✅ Confirms that template expressions are evaluated → SSTI vulnerability exists.  
 ![Step 1 – SSTI Reflection](../screenshots/ssti1-reflection.png)
+
 ---
 
 ### 🗂 Step 2 – List Root Directory
@@ -36,6 +37,7 @@ Payload:
 ```
 ✅ Identified a suspicious directory.  
 ![Step 2 – List Root](../screenshots/ssti1-root-dir.png)
+
 ---
 
 ### 📂 Step 3 – Explore `/challenge/` Directory
@@ -46,6 +48,7 @@ Payload:
 ```
 🎯 Located the `flag` file.  
 ![Step 3 – Challenge Folder](../screenshots/ssti1-challenge-dir.png)
+
 ---
 
 ### 🏁 Step 4 – Read the Flag File
@@ -56,6 +59,7 @@ Payload:
 ```
 📥 Extracted the flag.  
 ![Step 4 – Flag Found](../screenshots/ssti1-flag-read.png)
+
 ---
 
 ## 🏁 Flag
