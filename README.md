@@ -7,7 +7,8 @@ The challenges span various topics such as Web Exploitation, Cryptography, Rever
 
 ## 📁 Repository Structure
 
-<pre> ``` ctf-writeups/ ├── picoCTF-2025/ │ ├── web/ │ ├── crypto/ │ ├── forensics/ │ └── reverse/ └── tools/ ``` </pre>
+<pre> ``` ctf-writeups/ ├── picoCTF-2025/ │ ├── web/ │ ├── crypto/ │ ├── forensics/ │ └── reverse/ 
+└── tools/ ``` </pre>
 
 ---
 
