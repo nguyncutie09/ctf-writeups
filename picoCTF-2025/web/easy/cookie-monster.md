@@ -33,7 +33,7 @@ No working login form. The trick is in the browser cookie.
 - Found a cookie named: secret_recipe = cGljb0NURntjMDBrMWVfbTBuc3Rl9sMHZlc19jMDBraWVzX0FDOEZDRDc1fQ==
 
 
-👉 Here's what it looked like in the browser:
+Here's what it looked like in the browser:
 
 ![Step 2 – DevTools Cookie](../screenshots/cookie-monster-devtools.png)
 
@@ -47,7 +47,7 @@ No working login form. The trick is in the browser cookie.
 - Paste the value and hit “DECODE”  
 → You get the **flag** in plain text.
 
-👉 Visual result:
+Visual result:
 
 ![Step 3 – Decoded Flag](../screenshots/cookie-monster-decode.png)
 
