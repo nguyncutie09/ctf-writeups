@@ -54,9 +54,9 @@ No working login form. The trick is in the browser cookie.
 ---
 
 ## 🏁 Flag
-
+```
 picoCTF{c00k1e_m0nster_l0ves_c00kies_AC8FCD75}
-
+```
 ---
 
 ✅ This challenge is about noticing that authentication is faked, and the flag is literally sitting inside a Base64-encoded cookie.
